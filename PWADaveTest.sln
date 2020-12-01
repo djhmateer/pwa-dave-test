@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWADaveTest", "PWADaveTest\PWADaveTest.csproj", "{A8FDF8CE-8526-46EA-8C7E-205A96E2EC8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8FDF8CE-8526-46EA-8C7E-205A96E2EC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FDF8CE-8526-46EA-8C7E-205A96E2EC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FDF8CE-8526-46EA-8C7E-205A96E2EC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FDF8CE-8526-46EA-8C7E-205A96E2EC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F395AF0-44B6-4CFC-9ECC-739C5620B67F}
+	EndGlobalSection
+EndGlobal

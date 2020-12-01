@@ -1,0 +1,56 @@
+@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Sign in";
+}
+
+<h2>@ViewData["Title"]</h2>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Input.Email"></label>
+                <input asp-for="Input.Email" class="form-control" value="tier1@contoso.com">
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.Password"></label>
+                <input asp-for="Input.Password" class="form-control" value="1">
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label asp-for="Input.RememberMe">
+                        <input asp-for="Input.RememberMe" checked="checked" />
+                        @Html.DisplayNameFor(m => m.Input.RememberMe)
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Log in</button>
+            </div>
+            @*<div class="form-group">
+                <p> <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a> </p>
+                <p> <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a> </p>
+            </div>*@
+        </form>
+    </div>
+    <div class="col-md-6 col-md-offset-2">
+        <section>
+            <h4>Sample Users</h4>
+            <hr />
+            <div>
+                <p>Tier1 Role: <code>tier1@contoso.com</code> password: 1</p>
+                @*<p>Tier2 Role: <code>tier2@contoso.com</code> password: 2</p>
+                <p>Admin Role: <code>admin@contoso.com</code> password: 3</p>*@
+            </div>
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
