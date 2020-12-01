@@ -1,8 +1,16 @@
 {
-  "name": "PWA Dave Test",
-  "short_name": "PWADaveTest",
+  // (no effect on iOS)
+  "name": "PWA3 Dave Test",
+  // name displayed underneath app shortcut on home screen (not on iOS it uses the page title)
+  "short_name": "PWA2 DaveTest", 
   "start_url": "/",
+  // hide everything related to browser - minimal-ui, fullscreen, browser are others (only some work on iOS)
   "display": "standalone",
+  // when browser launches splash screen (not on iOS)
+  "background_color": "#fdfdfd",
+  "theme_color": "#db4938",
+  // can't force on iOS
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
