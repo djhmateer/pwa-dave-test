@@ -11,6 +11,7 @@
   "theme_color": "#db4938",
   // can't force on iOS
   "orientation": "portrait-primary",
+  "prefer_related_applications":  "true",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
