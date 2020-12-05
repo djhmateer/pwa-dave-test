@@ -5,10 +5,4 @@
     <UserSecretsId>6370b2d0-a00f-4e79-9041-438a47ecbc48</UserSecretsId>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Content Update="wwwroot\manifest.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
 </Project>
